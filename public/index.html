@@ -1,26 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
       integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
       integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+      integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
     <title>Springfield Olympiads</title>
   </head>
-  <body></body>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/public/index.html">
+          <img src="./images/logo.svg" alt="logo" width="50" height="50" class="d-inline-block align-text-center" />
+          Springfield Olympiads
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Register</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Olympiads
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">SISO</a></li>
+                <li><a class="dropdown-item" href="#">SIMO</a></li>
+
+                <li><a class="dropdown-item" href="#">SIEO</a></li>
+                <li><a class="dropdown-item" href="#">SICO</a></li>
+                <li><a class="dropdown-item" href="#">Grads</a></li>
+                <li><a class="dropdown-item" href="#">Finance</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Institute Log In</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="height: 700px">
+          <img src="./images/BannerImage.jpg" class="d-block w-100 .img-fluid" alt="banner_image">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-1 fw-bolder">Feeling Prepared?</h5>
+            <p class="fs-1 fw-bolder">Register For Olympiads</p>
+            <button type="button" class="btn btn-primary btn-lg">Register</button>
+            <button type="button" class="btn btn-primary btn-lg">Schedule</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-center fw-bold mt-5 mb-5">Our Olympiads</h1>
+    <div class="container mt-5 mb-5">
+      <div class="row mt-5 mb-5">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/chemistry.svg" class="h-50 w-50 card-img-top mx-auto img-responsive"
+              alt="chemistry_logo">
+            <div class="card-body">
+              <h5 class="card-title">SISO</h5>
+              <p class="card-text">The Springfield International Science Olympiad (SISO), a test of competence and
+                knowledge in the subject of Science, is held based on syllabus prescribed by CBSE/ ICSE and the State
+                Boards.</p>
+              <a href="#" class="btn btn-primary">Know More!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Maths.svg" class="h-50 w-50 card-img-top mx-auto img-responsive" alt="maths_logo">
+            <div class="card-body">
+              <h5 class="card-title">SIMO</h5>
+              <p class="card-text">The Springfield International Mathematics Olympiad (SIMO), a test of competence and
+                knowledge in the subject of Mathematics, is held based on syllabus prescribed by CBSE/ ICSE and the
+                State
+                Boards.</p>
+              <a href="#" class="btn btn-primary">Know More!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/English.svg" class="h-50 w-50 card-img-top mx-auto img-responsive" alt="english_logo">
+            <div class="card-body">
+              <h5 class="card-title">SIEO</h5>
+              <p class="card-text">The Springfield International English Olympiad (SIEO), a test of competence and
+                knowledge in the subject of English, is held based on syllabus prescribed by CBSE/ICSE and the State
+                Boards.</p>
+              <a href="#" class="btn btn-primary">Know More!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/computer.svg" class="h-50 w-50 card-img-top mx-auto img-responsive" alt="computer_logo">
+            <div class="card-body">
+              <h5 class="card-title">SICO</h5>
+              <p class="card-text">The Springfield International Cyber Olympiad (SICO), a test of competence and
+                knowledge in the Cyber Domain, is based on syllabus by CBSE/ICSE and the State Boards.</p>
+              <a href="#" class="btn btn-primary">Know More!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Grads.svg" class="h-50 w-50 card-img-top mx-auto img-responsive" alt="grads_logo">
+            <div class="card-body">
+              <h5 class="card-title">Grads Olympiad</h5>
+              <p class="card-text">The Grads Olympiad is one of its kind Olympiad, primarily focusing on MBA aspirants.
+                This is an online multiple-choice question based Olympiad.</p>
+              <a href="#" class="btn btn-primary">Know More!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Finance.svg" class="h-50 w-50 card-img-top mx-auto img-responsive" alt="finance_logo">
+            <div class="card-body">
+              <h5 class="card-title">Finance Olympiad</h5>
+              <p class="card-text">The Finance Olympiad is a specially curated Olympiad, made with a purpose to
+                inculcate
+                the habit and increase the knowledge of personal finances in a fun way.</p>
+              <a href="#" class="btn btn-primary">Know More!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="container mt-5 mb-5">
+      <div class="row align-items-md-stretch ">
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h2>Register As An Institute</h2>
+            <p>Want to give a headstart to the students of your institute by providing them an exciting platform to test
+              their knowledge and skills. Then, get your Institute registered with us now!</p>
+            <button class="btn btn-outline-light" type="button">Register Now</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="h-100 p-5 bg-light border rounded-3">
+            <h2>Register as a Coordinator</h2>
+            <p>Grab the opportunity and get a chance to work in the education sector with one of the renowned education
+              service providers with the option to work full time or part time. </p>
+            <button class="btn btn-outline-secondary" type="button">Register Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 fw-normal">About Springfield Olympiads</h1>
+        <p class="lead fw-normal">We, at Springfield Olympiads, provide one of the best Olympiad solutions for students and working professionals and students.
+          Springfield Olympiads is an Educational Organization popularizing academic competition and assisting the development of competitive spirit among learners.
+          
+          </p>
+        <a class="btn btn-outline-secondary" href="#">Know More</a>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
+    
+
+    <div class="container ">
+      <footer class="py-5 border-top">
+        <div class="row mt-5 mb-5 ">
+          <div class="col-2 ">
+            <h5></h5>
+            <ul class="nav flex-column ">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-4 offset-1">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>© 2021 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"></svg>Facebook</a>
+            </li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"></svg>Instagram</a>
+            </li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"></svg>Twitter</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+
 </html>
